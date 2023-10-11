@@ -1,0 +1,61 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	setlocale(0, "");
+    cout << "Перевод саженей в метры:" << endl;
+    for (int i = 1; i <= 10; ++i) {
+        double sazhen = i * 2.1366;
+        cout << i << " сажень = " << sazhen << " м" << endl;
+    }
+
+    cout << "\nПеревод дюймов в сантиметры:" << endl;
+    for (int i = 1; i <= 10; ++i) {
+        double inch = i * 2.54;
+        cout << i << " дюйм = " << inch << " см" << endl;
+    }
+
+    cout << "\nПеревод футов в метры:" << endl;
+    for (int i = 1; i <= 10; ++i) {
+        double foot = i * 0.3048;
+        cout << i << " фут = " << foot << " м" << endl;
+    }
+
+    cout << "\nПеревод драхм в граммы:" << endl;
+    for (int i = 1; i <= 10; ++i) {
+        double drachm = i * 3.7325;
+        cout << i << " драхм = " << drachm << " г" << endl;
+    }
+
+    cout << "\nПеревод унций в граммы:" << endl;
+    for (int i = 1; i <= 10; ++i) {
+        double ounce = i * 29.86;
+        cout << i << " унция = " << ounce << " г" << endl;
+    }
+
+    cout << "\nПеревод фунтов в килограммы:" << endl;
+    for (int i = 1; i <= 10; ++i) {
+        double pound = i * 0.40951;
+        cout << i << " фунт = " << pound << " кг" << endl;
+    }
+
+    cout << "\nПеревод аршинов в метры:" << endl;
+    for (int i = 1; i <= 10; ++i) {
+        double arshin = i * 0.7112;
+        cout << i << " аршин = " << arshin << " м" << endl;
+    }
+
+    cout << "\nПеревод золотников в граммы:" << endl;
+    for (int i = 1; i <= 10; ++i) {
+        double zolotnik = i * 4.2657;
+        cout << i << " золотник = " << zolotnik << " г" << endl;
+    }
+
+    cout << "\nПеревод дюймов в миллиметры:" << endl;
+    for (int i = 1; i <= 10; ++i) {
+        double inch = i * 25.3995;
+        cout << i << " дюйм = " << inch << " мм" << endl;
+    }
+
+    return 0;
+}
